@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f852ca81c0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="center">
+    <input type="checkbox" id="show">
+    <label for="show" class="show-btn">Click to enter</label>
+    <div class="container">
+      <label for="show" class="close-btn fas fa-times" title="close"></label>
+      <div class="text">
+        Login Form
+      </div>
+      <form action="#">
+        <div class="data">
+          <label>Email</label>
+          <input type="text" required placeholder = "Please enter anything">
+        </div>
+        <div class="data">
+          <label>Password</label>
+          <input type="password" required placeholder = "Please enter anything">
+        </div>
+        <div class="forgot-pass">
+          <a href="password.html">Forgot Password?</a>
+        </div>
+        <div class="butt">
+          <div class="inner"></div>
+          <a href = "page2.html"><button type=submit>login</a></button>
+        </div>
+        <div class="signup">
+          Not a member? <a href="#">Sign up now</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class='music'>
+    <font color="#ffffff" size="2"><i class="fab fa-itunes-note"></i> Playing: Alexander 23 - IDK You Yet <i
+        class="fab fa-itunes-note"></i></font>
+
+  </div>
+</body>
+
+<audio autoplay loop id="music">
+  <source src="assets/audio.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  var audio = document.getElementById("music");
+  audio.volume = 0.1;
+</script>
+
+</html>
