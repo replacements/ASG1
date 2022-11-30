@@ -61,6 +61,19 @@ a{
   right: 50px;
 }
 
+.intro {
+  text-align: center;
+}
+
+footer {
+  background-color: #1a1a1a;
+  height:500px;
+}
+
+#top-para {
+  font-size: 30px;
+  color: white;
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
