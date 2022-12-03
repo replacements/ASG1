@@ -21,47 +21,67 @@
       </div>
       <nav>
         <ul>
-          <li><a href="">Main</a></li>
-          <li><a href="html/product.html">Services</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Account</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="page2.html">Main</a></li>
+          <li><a href="trainers.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="rates.html">Rates</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
 
   </header>
-<footer>
+  <!-- Particles -->
+<div id="particles-js">
+  <script src="particles.js"></script>
+  <script>
+  src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"
+  </script>
+  
   <div class="intro" id="intro">
-    <div id="top-para"><p><b>We love training</b></p></div>
+    <div id="top-para"><h2><b>We <font color="#ff314c">love</font> <br>working out</b></h2></div>
     <br>
-    <p class="para">We have created a fictional training service website. Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p class="para">Welcome to World Training. We hope to see you on the other side as a loyal member and we'll continue being a loyal gym provider.</p>
+
+      <footer>
+        <h2 class = personaltrain>Personal Training</h2> <br>
+        
+        <p class = gympersonaltrainer><img class = "ptimg" src = "assets/stock-personaltrainer.jpg">The objective of joining <font color="#ff314c">World Training</font> <br>is to push your performance to the limits. 
+          <br>With the help of our personal trainers, <br> regardless your <font color="#ff314c">age</font>, bodybuild and what your goal is you can be rest assured your goal will be <font color="#ff314c">reached</font>.</p>
+          
+        </div>
+      </footer>
       </div>
-</footer>
+
+      <footer class = footer2>
+        <h2 style ="color: white;" class = membership>Membership</h2> <br>
+        <br>
+        <p class = memberdetails><img class = "memberimg" src = "assets/stock-membership.jpg">Looking to join the <font color="#ff314c">World Training Community</font>? Is your membership expiring soon?
+        <br> Look no further, check out the rates for membership below! <br> <br><a href = "rates.html">CLICK HERE TO FIND OUT ABOUT MEMBERSHIP RATES!</a></p>
+       
+      </footer>
+
+</div>
+<script>
+  particlesJS.load('particles-js', 'particle-cfg.json', function() {});
+</script>
+
+  <!-- End -->
+
+
   
 
-
-
-      <div class="row">
-        <div class='col1'>
-
-
-          <br>
-          <br>
-        </div>
-
-
-
-
-      </div>
+  
 </body>
+
+<audio autoplay loop id="music">
+  <source src="assets/audio.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  var audio = document.getElementById("music");
+  audio.volume = 0.1;
+</script>
 
 </html>
 
