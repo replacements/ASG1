@@ -14,3 +14,7 @@ ID assignment on making a webpage by Javier Lam. Doing a webpage for a fictional
 - [x] Fifth Page: About the Company
 - [x] Sixth Page: Rates for membership plans
 - [x] Contact Form
+
+Credits: 
+https://vincentgarreau.com/particles.js/ - Particles.js
+https://codepen.io/maxbrunel/pen/eqRqXg - Cube 
