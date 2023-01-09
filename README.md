@@ -18,3 +18,5 @@ ID assignment on making a webpage by Javier Lam. Doing a webpage for a fictional
 Credits: 
 https://vincentgarreau.com/particles.js/ - Particles.js
 https://codepen.io/maxbrunel/pen/eqRqXg - Cube 
+
+Note: Javascript code is in HTML Files.
